@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22MCA0313</title>
+    <style>
+        .album {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .album img {
+            width: 250px; 
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px;
+            border: 5px solid #eaf3f3;
+            border-radius: 10px;
+        }
+
+        .album-title {
+            font-weight: bold;
+            color: aliceblue;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 10px;
+            
+        }
+
+        .body{
+            background-image:url("albumbg.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+
+        .h1{
+            color: aliceblue;
+        }
+
+        
+    </style>
+</head>
+<body class="body">
+    <h1 class="h1">My Album</h1><br>
+    <div class="album">
+        <div class="album-item">
+            <img src="5.jpg" alt="Image 1">
+            <div class="album-title">XYZ</div><br>
+        </div>
+        <div class="album-item">
+            <img src="2.jpg" alt="Image 2">
+            <div class="album-title">ABC</div><br>
+        </div>
+        <div class="album-item">
+            <img src="3.jpg" alt="Image 3">
+            <div class="album-title">MNO</div><br>
+        </div>
+        <div class="album-item">
+            <img src="4.jpg" alt="Image 4"><br>
+            <div class="album-title">EFG</div><br>
+        </div>
+        <div class="album-item">
+            <img src="5.jpg" alt="Image 1">
+            <div class="album-title">XYZ</div><br>
+        </div>
+        <div class="album-item">
+            <img src="2.jpg" alt="Image 2">
+            <div class="album-title">ABC</div><br>
+        </div>
+        <div class="album-item">
+            <img src="3.jpg" alt="Image 3">
+            <div class="album-title">MNO</div><br>
+        </div>
+        <div class="album-item">
+            <img src="4.jpg" alt="Image 4"><br>
+            <div class="album-title">EFG</div><br>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
